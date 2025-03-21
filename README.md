@@ -1,7 +1,3 @@
----
-created: 2025-03-22T01:39
-updated: 2025-03-22T01:44
----
 <div align="center">
 <img alt="Profiles Pictures" src="https://raw.githubusercontent.com/iamverysimp1e/dots/main/ScreenShots/Other/profiles.png" width="200" height="200"/>
 </div>
@@ -46,7 +42,8 @@ updated: 2025-03-22T01:44
 - Install waybar, Rofi, Dunst, kitty terminal, swaybg, swaylock-fancy, swayidle, pamixer, light, Brillo:
 
 ```
-paru -S waybar rofi dunst kitty swaybg swaylock-fancy-git swayidle pamixer light brillo
+paru -S swaylock-fancy-git light brillo
+sudo pacman -S geeqie waybar rofi dunst kitty swaybg swayidle pamixer
 ```
 
 ### Necessary Font 🔑:
@@ -57,7 +54,7 @@ paru -S waybar rofi dunst kitty swaybg swaylock-fancy-git swayidle pamixer light
 
 - [Font Awesome](https://archlinux.org/packages/community/any/ttf-font-awesome/)
   ```
-  yay -S ttf-font-awesome
+  paru -S ttf-font-awesome
   ```
 
 Optional Font:
